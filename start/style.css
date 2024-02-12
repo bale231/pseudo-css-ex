@@ -12,6 +12,11 @@ blockquote {
 	padding: 8px;
 }
 
+blockquote::before,
+blockquote::after{
+	content: "“";
+}
+
 a {
 	color: darkred;
 	text-decoration: none;
